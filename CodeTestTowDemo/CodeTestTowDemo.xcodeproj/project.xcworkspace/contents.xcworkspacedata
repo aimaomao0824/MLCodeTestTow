@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MLCodeTestTow.xcodeproj">
+      location = "self:CodeTestTowDemo.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
-//  MLCodeTestTowTests.m
-//  MLCodeTestTowTests
+//  CodeTestTowDemoTests.m
+//  CodeTestTowDemoTests
 //
 //  Created by MannersLee on 2018/1/1.
 //  Copyright © 2018年 深圳市满泰科技有限公司. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MLCodeTestTowTests : XCTestCase
+@interface CodeTestTowDemoTests : XCTestCase
 
 @end
 
-@implementation MLCodeTestTowTests
+@implementation CodeTestTowDemoTests
 
 - (void)setUp {
     [super setUp];

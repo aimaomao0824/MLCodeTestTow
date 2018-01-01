@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "MannersLee" => "limao0824@163.com" }
   s.source       = { :git => "https://github.com/limao0824/MLCodeTestTow.git", :tag => s.version}
-  s.source_files  = "MLCodeTestTow/CodeTestTowDemo/*.{h,m}"
+  s.source_files  = "MLCodeTestTow/CodeTestTowDemo"
   s.requires_arc = true
 
 end
