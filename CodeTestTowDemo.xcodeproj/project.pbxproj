@@ -15,7 +15,7 @@
 		580623011FFA3B9C0002FD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580622FF1FFA3B9C0002FD0A /* LaunchScreen.storyboard */; };
 		5806230C1FFA3B9C0002FD0A /* CodeTestTowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806230B1FFA3B9C0002FD0A /* CodeTestTowDemoTests.m */; };
 		580623171FFA3B9C0002FD0A /* CodeTestTowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580623161FFA3B9C0002FD0A /* CodeTestTowDemoUITests.m */; };
-		580623261FFA3BDA0002FD0A /* MLCommentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 580623251FFA3BDA0002FD0A /* MLCommentClass.m */; };
+		5806232A1FFA41120002FD0A /* MLCommentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 580623291FFA41120002FD0A /* MLCommentClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		580623121FFA3B9C0002FD0A /* CodeTestTowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTestTowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580623161FFA3B9C0002FD0A /* CodeTestTowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeTestTowDemoUITests.m; sourceTree = "<group>"; };
 		580623181FFA3B9C0002FD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		580623241FFA3BDA0002FD0A /* MLCommentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLCommentClass.h; path = ../../MLCodeTestTow/MLCommentClass.h; sourceTree = "<group>"; };
-		580623251FFA3BDA0002FD0A /* MLCommentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLCommentClass.m; path = ../../MLCodeTestTow/MLCommentClass.m; sourceTree = "<group>"; };
+		580623281FFA41120002FD0A /* MLCommentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCommentClass.h; sourceTree = "<group>"; };
+		580623291FFA41120002FD0A /* MLCommentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCommentClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,11 @@
 		580622F01FFA3B9C0002FD0A /* CodeTestTowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				580623271FFA41120002FD0A /* MLCodeTestTow */,
 				580622F41FFA3B9C0002FD0A /* AppDelegate.h */,
 				580622F51FFA3B9C0002FD0A /* AppDelegate.m */,
 				580622F71FFA3B9C0002FD0A /* ViewController.h */,
 				580622F81FFA3B9C0002FD0A /* ViewController.m */,
-				580623241FFA3BDA0002FD0A /* MLCommentClass.h */,
-				580623251FFA3BDA0002FD0A /* MLCommentClass.m */,
 				580622FA1FFA3B9C0002FD0A /* Main.storyboard */,
 				580622FD1FFA3B9C0002FD0A /* Assets.xcassets */,
 				580622FF1FFA3B9C0002FD0A /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				580623181FFA3B9C0002FD0A /* Info.plist */,
 			);
 			path = CodeTestTowDemoUITests;
+			sourceTree = "<group>";
+		};
+		580623271FFA41120002FD0A /* MLCodeTestTow */ = {
+			isa = PBXGroup;
+			children = (
+				580623281FFA41120002FD0A /* MLCommentClass.h */,
+				580623291FFA41120002FD0A /* MLCommentClass.m */,
+			);
+			path = MLCodeTestTow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				580622F91FFA3B9C0002FD0A /* ViewController.m in Sources */,
-				580623261FFA3BDA0002FD0A /* MLCommentClass.m in Sources */,
+				5806232A1FFA41120002FD0A /* MLCommentClass.m in Sources */,
 				580622F61FFA3B9C0002FD0A /* AppDelegate.m in Sources */,
 				580622F31FFA3B9C0002FD0A /* main.m in Sources */,
 			);
